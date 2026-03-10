@@ -72,37 +72,3 @@ src/
 3. **คำนวณ Pace** - ใช้เครื่องมือคำนวณเพื่อวางแผนการฝึกซ้อม
 4. **ติดตามความก้าวหน้า** - บันทึกและติดตามการออกกำลังกายของคุณ
 
-## 🤝 การมีส่วนร่วม
-
-เรายินดีรับการมีส่วนร่วมจากทุกคน! หากคุณมีไอเดียหรือพบปัญหา สามารถเปิด issue หรือส่ง pull request ได้
-
-## 📄 สัญญาอนุญาต
-
-โปรเจกต์นี้ใช้สัญญาอนุญาต MIT - ดูรายละเอียดในไฟล์ LICENSE
-
----
-
-**เริ่มต้นการวิ่งของคุณวันนี้กับ Letsrun! 🏃‍♀️💨**
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
