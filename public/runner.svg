@@ -1,0 +1,42 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0" r="1">
+      <stop offset="0" stop-color="#F97316" />
+      <stop offset="0.5" stop-color="#EC4899" />
+      <stop offset="1" stop-color="#0F172A" />
+    </radialGradient>
+    <linearGradient id="runner" x1="120" y1="96" x2="420" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FAFB" />
+      <stop offset="1" stop-color="#9CA3AF" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)" />
+  <circle cx="220" cy="132" r="44" fill="url(#runner)" />
+  <path
+    d="M192 240L232 196C248 178 272 176 292 188L332 212C348 222 358 240 358 260C358 282 346 302 328 312L296 330L276 384L216 368L236 312L204 296C182 286 172 262 180 240L192 240Z"
+    fill="url(#runner)"
+  />
+  <path
+    d="M176 424L232 344L200 328C176 316 164 288 172 262L184 224"
+    stroke="url(#runner)"
+    stroke-width="22"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M320 432L276 384L304 320"
+    stroke="url(#runner)"
+    stroke-width="22"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M120 360H192M320 152H392"
+    stroke="url(#runner)"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.6"
+  />
+</svg>
+
